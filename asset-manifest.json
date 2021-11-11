@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/newsic/static/css/main.c93bd4cb.chunk.css",
+    "main.js": "/newsic/static/js/main.c8276d56.chunk.js",
+    "main.js.map": "/newsic/static/js/main.c8276d56.chunk.js.map",
+    "runtime-main.js": "/newsic/static/js/runtime-main.50f01619.js",
+    "runtime-main.js.map": "/newsic/static/js/runtime-main.50f01619.js.map",
+    "static/js/2.65786e3e.chunk.js": "/newsic/static/js/2.65786e3e.chunk.js",
+    "static/js/2.65786e3e.chunk.js.map": "/newsic/static/js/2.65786e3e.chunk.js.map",
+    "static/js/3.2453fa86.chunk.js": "/newsic/static/js/3.2453fa86.chunk.js",
+    "static/js/3.2453fa86.chunk.js.map": "/newsic/static/js/3.2453fa86.chunk.js.map",
+    "index.html": "/newsic/index.html",
+    "static/css/main.c93bd4cb.chunk.css.map": "/newsic/static/css/main.c93bd4cb.chunk.css.map",
+    "static/js/2.65786e3e.chunk.js.LICENSE.txt": "/newsic/static/js/2.65786e3e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.50f01619.js",
+    "static/js/2.65786e3e.chunk.js",
+    "static/css/main.c93bd4cb.chunk.css",
+    "static/js/main.c8276d56.chunk.js"
+  ]
+}
