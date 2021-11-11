@@ -18,7 +18,6 @@ export class News extends Component {
     category:PropTypes.string,
   }
 
-  articles=[]
   constructor() {
     super();
     this.state = {
