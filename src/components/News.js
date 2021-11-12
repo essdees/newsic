@@ -74,13 +74,13 @@ export class News extends Component {
         <h1 className="text-center">Newsic- Top Headlines</h1>
         {this.state.loading && <Spinner/>}
         <div className="row d-flex ">
-          {!this.state.loading && this.state.articles.map((element)=>{
-            return <div className="col-md-4 " key={element.url}>
+          {!this.state.loading && this.state.articles.map(({title,description,url,urlToImage})=>{
+            return <div className="col-md-4 " key={url}>
               <Newsitem
-            title={element.title}
-            description={element.description===null?"":element.description}
-            imageurl={element.urlToImage}
-             newsurl={element.url}
+            title={title}
+            description={description===null?"":description}
+            imageurl={urlToImage}
+             newsurl={url}
           />
           </div>
           })}
