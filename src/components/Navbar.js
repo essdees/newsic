@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 export class Navbar extends Component {
     render() {
@@ -6,20 +7,18 @@ export class Navbar extends Component {
             <div>
                 <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="/">Newsic</a>
+                    <Link className="navbar-brand" to="/">Newsic</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
-                        <a className="nav-link " aria-current="page" href="/">Home</a>
-                        <a className="nav-link " aria-current="page" href="/">business</a>
-                        <a className="nav-link " aria-current="page" href="/">entertainment</a>
-                        <a className="nav-link " aria-current="page" href="/">general</a>
-                        <a className="nav-link " aria-current="page" href="/">health</a>
-                        <a className="nav-link " aria-current="page" href="/">science</a>
-                        <a className="nav-link " aria-current="page" href="/">sports</a>
-                        <a className="nav-link " aria-current="page" href="/">technology</a>
+                        <Link className="nav-link " aria-current="page" to="/business">Business</Link>
+                        <Link className="nav-link " aria-current="page" to="/entertainment">Entertainment</Link>
+                        <Link className="nav-link " aria-current="page" to="/health">Health</Link>
+                        <Link className="nav-link " aria-current="page" to="/science">Science</Link>
+                        <Link className="nav-link " aria-current="page" to="/sports">Sports</Link>
+                        <Link className="nav-link " aria-current="page" to="/technology">Technology</Link>
                     </div>
                     </div>
                 </div>
